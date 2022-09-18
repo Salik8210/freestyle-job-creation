@@ -1,0 +1,8 @@
+[20220918-14:06:50] [CORE ] main: app started pid 1898(0x0000076a)
+[20220918-14:06:50] [INFO ] main: DISPLAY env var set to :10.0
+[20220918-14:06:50] [INFO ] main: using DISPLAY 10
+[20220918-14:06:50] [INFO ] channel_thread_loop: thread start
+[20220918-14:06:50] [INFO ] Socket 12: AF_UNIX connection received
+[20220918-15:29:11] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20220918-15:30:09] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[20220918-15:32:23] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8

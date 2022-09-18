@@ -1,0 +1,359 @@
+[   130.243] 
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+[   130.243] Build Operating System: linux Ubuntu
+[   130.243] Current Operating System: Linux ip-172-31-29-217 5.15.0-1019-aws #23~20.04.1-Ubuntu SMP Thu Aug 18 03:20:14 UTC 2022 x86_64
+[   130.243] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-1019-aws root=PARTUUID=3fa6b62f-01 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+[   130.243] Build Date: 06 July 2022  01:53:24PM
+[   130.243] xorg-server 2:1.20.13-1ubuntu1~20.04.3 (For technical support please see http://www.ubuntu.com/support) 
+[   130.243] Current version of pixman: 0.38.4
+[   130.243] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   130.243] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   130.243] (++) Log file: ".xorgxrdp.10.log", Time: Sun Sep 18 14:06:50 2022
+[   130.244] (++) Using config file: "/etc/X11/xrdp/xorg.conf"
+[   130.244] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   130.245] (==) ServerLayout "X11 Server"
+[   130.245] (**) |-->Screen "Screen (xrdpdev)" (0)
+[   130.245] (**) |   |-->Monitor "Monitor"
+[   130.245] (**) |   |-->Device "Video Card (xrdpdev)"
+[   130.245] (**) |-->Input Device "xrdpMouse"
+[   130.245] (**) |-->Input Device "xrdpKeyboard"
+[   130.245] (**) Option "DontVTSwitch" "on"
+[   130.245] (**) Option "AutoAddDevices" "off"
+[   130.245] (**) Not automatically adding devices
+[   130.245] (==) Automatically enabling devices
+[   130.245] (==) Automatically adding GPU devices
+[   130.245] (==) Automatically binding GPU devices
+[   130.245] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   130.245] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   130.245] 	Entry deleted from font path.
+[   130.245] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   130.245] 	Entry deleted from font path.
+[   130.245] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   130.245] 	Entry deleted from font path.
+[   130.245] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   130.245] 	Entry deleted from font path.
+[   130.245] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   130.245] 	Entry deleted from font path.
+[   130.245] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[   130.245] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   130.245] (II) Loader magic: 0x558680777020
+[   130.245] (II) Module ABI versions:
+[   130.245] 	X.Org ANSI C Emulation: 0.4
+[   130.245] 	X.Org Video Driver: 24.1
+[   130.245] 	X.Org XInput driver : 24.1
+[   130.245] 	X.Org Server Extension : 10.0
+[   130.249] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c4
+[   130.251] (--) PCI:*(0@0:3:0) 1d0f:1111:0000:0000 rev 0, Mem @ 0xfe400000/4194304, BIOS @ 0x????????/131072
+[   130.251] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+[   130.251] (II) LoadModule: "dbe"
+[   130.251] (II) Module "dbe" already built-in
+[   130.251] (II) LoadModule: "ddc"
+[   130.251] (II) Module "ddc" already built-in
+[   130.251] (II) LoadModule: "extmod"
+[   130.251] (II) Module "extmod" already built-in
+[   130.251] (II) LoadModule: "glx"
+[   130.251] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   130.252] (II) Module glx: vendor="X.Org Foundation"
+[   130.252] 	compiled for 1.20.13, module version = 1.0.0
+[   130.252] 	ABI class: X.Org Server Extension, version 10.0
+[   130.252] (II) LoadModule: "int10"
+[   130.252] (II) Loading /usr/lib/xorg/modules/libint10.so
+[   130.252] (II) Module int10: vendor="X.Org Foundation"
+[   130.252] 	compiled for 1.20.13, module version = 1.0.0
+[   130.252] 	ABI class: X.Org Video Driver, version 24.1
+[   130.252] (II) LoadModule: "record"
+[   130.252] (II) Module "record" already built-in
+[   130.252] (II) LoadModule: "vbe"
+[   130.252] (II) Loading /usr/lib/xorg/modules/libvbe.so
+[   130.252] (II) Module vbe: vendor="X.Org Foundation"
+[   130.252] 	compiled for 1.20.13, module version = 1.1.0
+[   130.252] 	ABI class: X.Org Video Driver, version 24.1
+[   130.252] (II) LoadModule: "glamoregl"
+[   130.252] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[   130.258] (II) Module glamoregl: vendor="X.Org Foundation"
+[   130.258] 	compiled for 1.20.13, module version = 1.0.1
+[   130.258] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   130.258] (II) LoadModule: "xorgxrdp"
+[   130.258] (II) Loading /usr/lib/xorg/modules/libxorgxrdp.so
+[   130.259] (II) Module XORGXRDP: vendor="X.Org Foundation"
+[   130.259] 	compiled for 1.20.6, module version = 0.2.12
+[   130.259] 	ABI class: X.Org Video Driver, version 24.0
+[   130.259] xorgxrdpSetup:
+[   130.259] (II) LoadModule: "fb"
+[   130.260] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   130.260] (II) Module fb: vendor="X.Org Foundation"
+[   130.260] 	compiled for 1.20.13, module version = 1.0.0
+[   130.260] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   130.260] (II) LoadModule: "xrdpdev"
+[   130.260] (II) Loading /usr/lib/xorg/modules/drivers/xrdpdev_drv.so
+[   130.262] (II) Module XRDPDEV: vendor="X.Org Foundation"
+[   130.262] 	compiled for 1.20.6, module version = 0.2.12
+[   130.262] 	ABI class: X.Org Video Driver, version 24.0
+[   130.262] xrdpdevSetup:
+[   130.262] (II) LoadModule: "xrdpmouse"
+[   130.262] (II) Loading /usr/lib/xorg/modules/input/xrdpmouse_drv.so
+[   130.262] (II) Module XRDPMOUSE: vendor="X.Org Foundation"
+[   130.262] 	compiled for 1.20.6, module version = 0.2.12
+[   130.262] 	Module class: X.Org XInput Driver
+[   130.262] 	ABI class: X.Org XInput driver, version 24.1
+[   130.262] rdpmousePlug:
+[   130.262] (II) LoadModule: "xrdpkeyb"
+[   130.263] (II) Loading /usr/lib/xorg/modules/input/xrdpkeyb_drv.so
+[   130.264] (II) Module XRDPKEYB: vendor="X.Org Foundation"
+[   130.264] 	compiled for 1.20.6, module version = 0.2.12
+[   130.264] 	Module class: X.Org XInput Driver
+[   130.264] 	ABI class: X.Org XInput driver, version 24.1
+[   130.264] rdpkeybPlug:
+[   130.264] rdpIdentify:
+[   130.264] (II) XRDPDEV: driver for xrdp: XRDPDEV
+[   130.264] rdpDriverFunc: op 10
+[   130.264] (WW) Falling back to old probe method for XRDPDEV
+[   130.264] rdpProbe:
+[   130.264] (II) Loading sub module "fb"
+[   130.264] (II) LoadModule: "fb"
+[   130.264] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   130.264] (II) Module fb: vendor="X.Org Foundation"
+[   130.264] 	compiled for 1.20.13, module version = 1.0.0
+[   130.264] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   130.264] rdpProbe: found DRMDevice xorg.conf value [/dev/dri/renderD128]
+[   130.264] rdpProbe: found DRI3 xorg.conf value [1]
+[   130.264] (II) XRDPDEV(0): using default device
+[   130.264] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   130.264] rdpPreInit:
+[   130.264] rdpPreInit: /dev/dri/renderD128 open failed
+[   130.264] (**) XRDPDEV(0): Depth 24, (--) framebuffer bpp 32
+[   130.264] (==) XRDPDEV(0): RGB weight 888
+[   130.264] (==) XRDPDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[   130.264] (==) XRDPDEV(0): Default visual is TrueColor
+[   130.264] (==) XRDPDEV(0): DPI set to (96, 96)
+[   130.264] (II) XRDPDEV(0): 	mode "640x480" ok
+[   130.264] (II) XRDPDEV(0): 	mode "800x600" ok
+[   130.264] (II) XRDPDEV(0): Virtual size is 800x600 (pitch 800)
+[   130.264] (**) XRDPDEV(0):  Default mode "800x600": 36.0 MHz (scaled from 0.0 MHz), 35.2 kHz, 56.2 Hz
+[   130.264] (II) XRDPDEV(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[   130.264] rdpScreenInit: virtualX 800 virtualY 600 rgbBits 8 depth 24
+[   130.264] rdpScreenInit: pfbMemory bytes 1920000
+[   130.264] rdpScreenInit: pfbMemory 0x7fc44ef67010
+[   130.264] rdpSimdInit: assigning yuv functions
+[   130.264] rdpSimdInit: cpuid ax 1 cx 0 return ax 0x00050657 bx 0x00040800 cx 0xfffa3203 dx 0x1f8bfbff
+[   130.264] rdpSimdInit: sse2 amd64 yuv functions assigned
+[   130.264] (==) XRDPDEV(0): Backing store enabled
+[   130.264] rdpClientConInit: disconnect idle session after [0] sec
+[   130.264] rdpClientConInit: kill disconnected [0] timeout [0] sec
+[   130.264] rdpXvInit: depth 24
+[   130.264] rdpScreenInit: out
+[   130.264] (II) Initializing extension Generic Event Extension
+[   130.264] (II) Initializing extension SHAPE
+[   130.264] (II) Initializing extension MIT-SHM
+[   130.265] (II) Initializing extension XInputExtension
+[   130.265] (II) Initializing extension XTEST
+[   130.265] (II) Initializing extension BIG-REQUESTS
+[   130.265] (II) Initializing extension SYNC
+[   130.265] (II) Initializing extension XKEYBOARD
+[   130.265] (II) Initializing extension XC-MISC
+[   130.265] (II) Initializing extension SECURITY
+[   130.266] (II) Initializing extension XFIXES
+[   130.266] (II) Initializing extension RENDER
+[   130.266] (II) Initializing extension RANDR
+[   130.266] (II) Initializing extension COMPOSITE
+[   130.266] (II) Initializing extension DAMAGE
+[   130.266] (II) Initializing extension MIT-SCREEN-SAVER
+[   130.267] (II) Initializing extension DOUBLE-BUFFER
+[   130.267] (II) Initializing extension RECORD
+[   130.267] (II) Initializing extension DPMS
+[   130.267] (II) Initializing extension Present
+[   130.267] (II) Initializing extension DRI3
+[   130.267] (II) Initializing extension X-Resource
+[   130.267] (II) Initializing extension XVideo
+[   130.267] (II) Initializing extension XVideo-MotionCompensation
+[   130.267] (II) Initializing extension SELinux
+[   130.267] (II) SELinux: Disabled on system
+[   130.267] (II) Initializing extension GLX
+[   130.267] (II) AIGLX: Screen 0 is not DRI2 capable
+[   130.290] (II) IGLX: Loaded and initialized swrast
+[   130.290] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[   130.290] (II) Initializing extension XFree86-VidModeExtension
+[   130.291] (II) Initializing extension XFree86-DGA
+[   130.291] (II) Initializing extension XFree86-DRI
+[   130.291] (II) Initializing extension DRI2
+[   130.291] rdpCreateScreenResources:
+[   130.321] (II) Using input driver 'XRDPMOUSE' for 'xrdpMouse'
+[   130.321] (**) Option "CorePointer"
+[   130.321] (**) xrdpMouse: always reports core events
+[   130.321] rdpmousePreInit: drv 0x5586814e0600 info 0x5586816745a0, flags 0x0
+[   130.321] (II) XINPUT: Adding extended input device "xrdpMouse" (type: Mouse, id 6)
+[   130.321] rdpmouseControl: what 0
+[   130.321] rdpmouseDeviceInit:
+[   130.321] rdpmouseCtrl:
+[   130.321] rdpRegisterInputCallback: type 1 proc 0x7fc4504ca430
+[   130.321] (**) xrdpMouse: (accel) keeping acceleration scheme 1
+[   130.321] (**) xrdpMouse: (accel) acceleration profile 0
+[   130.321] (**) xrdpMouse: (accel) acceleration factor: 2.000
+[   130.321] (**) xrdpMouse: (accel) acceleration threshold: 4
+[   130.321] rdpmouseControl: what 1
+[   130.321] rdpmouseDeviceOn:
+[   130.321] (II) Using input driver 'XRDPKEYB' for 'xrdpKeyboard'
+[   130.321] (**) Option "CoreKeyboard"
+[   130.321] (**) xrdpKeyboard: always reports core events
+[   130.321] rdpkeybPreInit: drv 0x5586814debf0 info 0x5586817e4d30, flags 0x0
+[   130.321] (II) XINPUT: Adding extended input device "xrdpKeyboard" (type: Keyboard, id 7)
+[   130.321] rdpkeybControl: what 0
+[   130.321] rdpkeybDeviceInit:
+[   130.336] rdpkeybChangeKeyboardControl:
+[   130.336] rdpkeybChangeKeyboardControl: autoRepeat on
+[   130.336] rdpRegisterInputCallback: type 0 proc 0x7fc44f6498e0
+[   130.336] rdpkeybControl: what 1
+[   130.336] rdpkeybDeviceOn:
+[   130.342] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   130.344] (II) AutoAddDevices is off - not adding device.
+[   130.345] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[   130.345] (II) AutoAddDevices is off - not adding device.
+[   130.345] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[   130.345] (II) AutoAddDevices is off - not adding device.
+[   130.345] (II) config/udev: Adding input device ImPS/2 Generic Wheel Mouse (/dev/input/event3)
+[   130.345] (II) AutoAddDevices is off - not adding device.
+[   130.346] (II) config/udev: Adding input device ImPS/2 Generic Wheel Mouse (/dev/input/mouse0)
+[   130.346] (II) AutoAddDevices is off - not adding device.
+[   130.350] rdpDeferredRandR:
+[   130.350] rdpResizeSession: width 1024 height 768
+[   130.350]   calling RRScreenSizeSet
+[   130.350] rdpRRScreenSetSize: width 1024 height 768 mmWidth 271 mmHeight 203
+[   130.350] rdpRRGetInfo:
+[   130.350]   screen resized to 1024x768
+[   130.352]   RRScreenSizeSet ok 1
+[   130.352] rdpResizeSession: width 1536 height 745
+[   130.352]   calling RRScreenSizeSet
+[   130.352] rdpRRScreenSetSize: width 1536 height 745 mmWidth 406 mmHeight 197
+[   130.352] rdpRRGetInfo:
+[   130.352]   screen resized to 1536x745
+[   130.355]   RRScreenSizeSet ok 1
+[   130.355] rdpClientConGotConnection:
+[   130.355] rdpClientConGotConnection: g_sck_accept ok new_sck 7
+[   130.355] rdpClientConGetConnection: idle_disconnect_timeout set to non-positive value, idle timer turned off
+[   130.355] rdpAddClientConToDev: adding first clientCon 0x5586818204a0
+[   130.355] rdpClientConProcessMsgVersion: version 0 0 0 1
+[   130.355] rdpClientConProcessScreenSizeMsg: set width 1536 height 745 bpp 16
+[   130.355] rdpClientConProcessScreenSizeMsg: shmemid 10 shmemptr 0x7fc446947000
+[   130.355] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1536 cy 745
+[   130.436] rdpInDeferredRepeatCallback:
+[   130.436] rdpkeybChangeKeyboardControl:
+[   130.437] rdpkeybChangeKeyboardControl: autoRepeat off
+[   130.553] rdpClientConProcessMsgClientInfo:
+[   130.553]   got client info bytes 5752
+[   130.553]   jpeg support 0
+[   130.554]   offscreen support 0
+[   130.554]   offscreen size 0
+[   130.554]   offscreen entries 0
+[   130.554]   client supports glyph cache but server disabled
+[   130.554]   client can not do offscreen to offscreen blits
+[   130.554]   client can do new(color) cursor
+[   130.554]   client can not do multimon
+[   130.554] rdpRRSetRdpOutputs: numCrtcs 0 numOutputs 0 monitorCount 0
+[   130.554] rdpRRSetRdpOutputs: add output 0 left 0 top 0 width 1536 height 745
+[   130.554] rdpLoadLayout: keylayout 0x00000409 variant  display 10
+[   130.554] rdpkeybChangeKeyboardControl:
+[   130.554] rdpkeybChangeKeyboardControl: autoRepeat on
+[   130.554] rdpkeybChangeKeyboardControl:
+[   130.554] rdpkeybChangeKeyboardControl: autoRepeat on
+[   130.654] rdpInDeferredRepeatCallback:
+[   130.654] rdpkeybChangeKeyboardControl:
+[   130.654] rdpkeybChangeKeyboardControl: autoRepeat off
+[   130.654] rdpInDeferredRepeatCallback:
+[   130.654] rdpkeybChangeKeyboardControl:
+[   130.654] rdpkeybChangeKeyboardControl: autoRepeat off
+[   131.168] rdpRRGetInfo:
+[   131.186] rdpkeybChangeKeyboardControl:
+[   131.186] rdpkeybChangeKeyboardControl: autoRepeat on
+[   131.186] rdpkeybChangeKeyboardControl:
+[   131.186] rdpkeybChangeKeyboardControl: autoRepeat on
+[   131.187] rdpkeybChangeKeyboardControl:
+[   131.187] rdpkeybChangeKeyboardControl: autoRepeat on
+[   131.187] rdpkeybChangeKeyboardControl:
+[   131.187] rdpkeybChangeKeyboardControl: autoRepeat on
+[   131.189] rdpkeybChangeKeyboardControl:
+[   131.189] rdpkeybChangeKeyboardControl: autoRepeat on
+[   131.189] rdpkeybChangeKeyboardControl:
+[   131.189] rdpkeybChangeKeyboardControl: autoRepeat on
+[   131.286] rdpInDeferredRepeatCallback:
+[   131.286] rdpkeybChangeKeyboardControl:
+[   131.286] rdpkeybChangeKeyboardControl: autoRepeat off
+[   131.286] rdpInDeferredRepeatCallback:
+[   131.286] rdpkeybChangeKeyboardControl:
+[   131.286] rdpkeybChangeKeyboardControl: autoRepeat off
+[   131.287] rdpInDeferredRepeatCallback:
+[   131.287] rdpkeybChangeKeyboardControl:
+[   131.287] rdpkeybChangeKeyboardControl: autoRepeat off
+[   131.287] rdpInDeferredRepeatCallback:
+[   131.287] rdpkeybChangeKeyboardControl:
+[   131.287] rdpkeybChangeKeyboardControl: autoRepeat off
+[   131.289] rdpInDeferredRepeatCallback:
+[   131.289] rdpkeybChangeKeyboardControl:
+[   131.289] rdpkeybChangeKeyboardControl: autoRepeat off
+[   131.289] rdpInDeferredRepeatCallback:
+[   131.289] rdpkeybChangeKeyboardControl:
+[   131.289] rdpkeybChangeKeyboardControl: autoRepeat off
+[   131.734] rdpRRGetInfo:
+[  1875.781] rdpkeybBell:
+[  1875.781] rdpkeybBell:
+[  1875.917] rdpkeybBell:
+[  1875.917] rdpkeybBell:
+[  1876.057] rdpkeybBell:
+[  1876.057] rdpkeybBell:
+[  1882.350] KbdSync: toggling num lock
+[  1882.350] rdpkeybChangeKeyboardControl:
+[  1882.350] rdpkeybChangeKeyboardControl: autoRepeat off
+[  1882.350] rdpkeybChangeKeyboardControl:
+[  1882.350] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5085.353] rdpkeybBell:
+[  5085.353] rdpkeybBell:
+[  5086.831] rdpkeybBell:
+[  5086.831] rdpkeybBell:
+[  5090.580] rdpkeybBell:
+[  5090.580] rdpkeybBell:
+[  5095.170] rdpkeybBell:
+[  5095.170] rdpkeybBell:
+[  5096.376] rdpkeybBell:
+[  5096.376] rdpkeybBell:
+[  5115.810] rdpkeybBell:
+[  5115.810] rdpkeybBell:
+[  5136.028] rdpkeybBell:
+[  5136.028] rdpkeybBell:
+[  5140.088] rdpkeybBell:
+[  5140.089] rdpkeybBell:
+[  5142.094] rdpkeybBell:
+[  5142.094] rdpkeybBell:
+[  5525.589] rdpkeybBell:
+[  5525.589] rdpkeybBell:
+[  5525.709] rdpkeybBell:
+[  5525.709] rdpkeybBell:
+[  5525.821] rdpkeybBell:
+[  5525.821] rdpkeybBell:
+[  5539.609] rdpkeybBell:
+[  5539.609] rdpkeybBell:
+[  5571.397] rdpkeybChangeKeyboardControl:
+[  5571.397] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5571.397] rdpkeybChangeKeyboardControl:
+[  5571.397] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5575.201] rdpkeybChangeKeyboardControl:
+[  5575.201] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5575.201] rdpkeybChangeKeyboardControl:
+[  5575.201] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5576.055] rdpkeybChangeKeyboardControl:
+[  5576.055] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5576.055] rdpkeybChangeKeyboardControl:
+[  5576.055] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5576.224] rdpkeybChangeKeyboardControl:
+[  5576.224] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5576.224] rdpkeybChangeKeyboardControl:
+[  5576.224] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5602.972] rdpkeybChangeKeyboardControl:
+[  5602.972] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5602.972] rdpkeybChangeKeyboardControl:
+[  5602.972] rdpkeybChangeKeyboardControl: autoRepeat off
